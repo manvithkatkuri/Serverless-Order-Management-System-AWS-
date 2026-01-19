@@ -1,0 +1,20 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+.crash.log
+.terraform.lock.hcl
+
+# Terraform providers (Windows/Linux)
+**/terraform-provider-*
+
+# Build artifacts
+build/
+*.zip
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
