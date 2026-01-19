@@ -158,7 +158,7 @@ GET /orders/{id}
 
 GET /orders?status=NEW
 
-**Order Processing Workflow**
+**Order Processing Workflow
 
 API Gateway receives request
 
@@ -178,7 +178,7 @@ Compensation logic triggered on failure
 
 Metrics & logs captured in CloudWatch
 
-**Observability**
+**Observability
 CloudWatch Metrics
 
 Custom Metric: OrdersCreated
@@ -197,7 +197,7 @@ Individual log groups per Lambda
 
 Step Function execution logs
 
-**SNS Email Notification (Assignment Note)**
+**SNS Email Notification (Assignment Note)
 
 Email subscription is created and confirmed
 
@@ -207,7 +207,7 @@ Assignment validates infrastructure setup, not manual triggering
 
 Not receiving an email during API test is expected behavior
 
-**Deployment Instructions**
+**Deployment Instructions
 Prerequisites
 
 Terraform >= 1.5
@@ -238,7 +238,7 @@ sns_topic_arn
 
 state_machine_arn
 
-**Testing (PowerShell)**
+**Testing (PowerShell)
 Set values from Terraform outputs
 $API_BASE_URL = "https://<your-api-id>.execute-api.us-east-1.amazonaws.com/prod"
 $API_KEY = "<your-api-key>"
