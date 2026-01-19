@@ -133,7 +133,7 @@ Content-Type: application/json
 
 
 **Request Body**
-```json
+
 {
   "customerEmail": "test@example.com",
   "items": [
@@ -149,7 +149,7 @@ Response
   "orderId": "uuid",
   "status": "NEW"
 }
-```json
+
 🔹 Get Order by ID
 
 GET /orders/{id}
