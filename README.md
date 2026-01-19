@@ -149,7 +149,7 @@ Response
   "orderId": "uuid",
   "status": "NEW"
 }
-
+```json
 🔹 Get Order by ID
 
 GET /orders/{id}
